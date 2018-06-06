@@ -14,9 +14,9 @@ router.get('/', function (req, res, next) {
 router.post('/', function(req, res, next) {
     var email = req.body.email;
     var user = new User({
-        firstName: 'Max',
-        lastName: 'Schwarz',
-        password: 'super-secret',
+        firstName: 'Balasaravanan',
+        lastName: 'veeraswamy',
+        password: 'sample@1',
         email: email
     });
     user.save();
